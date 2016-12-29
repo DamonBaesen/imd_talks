@@ -1,0 +1,715 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+/* ----- NAVIGATION ----- */
+
+#navDekstop {
+    display: none;
+}
+
+#navMobile {
+    display: block;
+}
+
+#logo {
+    text-indent: -9999px;
+    display: block;
+    background-image: url(../images/logoVTM.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px
+}
+
+header {
+    height: 50px;
+}
+/* ----- HAMBURGER MENU */
+
+.hamburger {
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 45px;
+    padding: 5px 15px 0px 15px;
+    color: #000;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+}
+
+.cross {
+    background: none;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 13px 15px 0px 15px;
+    color: #000;
+    border: 0;
+    font-size: 3em;
+    line-height: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+}
+
+.menu {
+    z-index: 1000000;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 100%;
+    background: #131313;
+    position: absolute;
+    text-align: center;
+    height: 100vh;
+}
+
+.menu nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 0 15px 0;
+    border-bottom: #1d1f20 1px solid;
+}
+
+.menu a:hover {
+    display: block;
+    background: #181818;
+    padding: 15px 0 15px 0;
+    border-bottom: #1d1f20 1px solid;
+}
+
+.menu nav a {
+    text-decoration: none;
+    margin: 0px;
+    color: #fff;
+}
+
+.menu nav a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: white;
+}
+/* ----- GENERAL INFO ----- */
+
+#info {
+    background-image: url(../images/backgroundBig.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+}
+
+#info p {
+    padding: 6px 0;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+#countdown,
+#practicalInfo {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#practicalInfo {
+    align-items: center;
+    margin-top: 20px
+}
+
+.countdownElement {
+    text-align: center;
+    margin: 15px 0;
+    width: 33%;
+}
+
+.timeElement {
+    width: 49.2%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.timeElement h3 {
+    width: 96%;
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+}
+
+.timeElement > img {
+    width: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+#locationInfo {
+    border-left: 5px solid white;
+}
+
+
+/* ----- INTRO INFO ------ */
+#imgSpeaker {
+    display: none;
+}
+
+#introInfo {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#introInfo h1 {
+    color: #343434;
+    font-size: 2em;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+#introInfo h2 {
+    font-size: 1.2em;
+    color: #343434;
+    margin-top: 10px;
+    line-height: 25px;
+    letter-spacing: 0.6px;
+}
+
+#introInfo em {
+    font-style: normal;
+    color: #dc5858;
+}
+
+#introInfo p {
+    margin-top: 15px;
+    line-height: 20px;
+    color: #343434;
+}
+/* PARTICPANT RED BAR */
+
+#participantsBar {
+    margin: 30px 0;
+    background-image: url(../images/backgroundSmall.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#participantsInnerBar
+{
+    display: flex;
+    width: 100%;
+}
+
+#participantsInnerBar h4 {
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    padding: 30px 0
+}
+
+#participantsInnerBar em{
+    font-style: normal;
+}
+/* ----- TIMETABLE ----- */
+
+#timetableContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#timetableContainer h3 {
+    margin-top: 40px;
+    font-size: 23px;
+    color: #343434;
+    padding-bottom: 12px;
+}
+
+#timetableContainer p {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 22px;
+}
+
+#ctaTimetable {
+    margin: 15px auto 30px auto;
+    background-color: #dc5858;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    padding: 12px 30px;
+    display: block;
+    width: 180px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#ctaTimetable:hover,
+#ctaTimetable:active {
+    background-color: #d63c3c;
+}
+
+#ctaTimetable em {
+    font-style: normal;
+    font-size: 12px
+}
+/* ----- PARTICIPANT ----- */
+
+#participants {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#participants img {
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#participants h3 {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #dc5858;
+    padding-top: 7px
+}
+
+#participants h4 {
+    font-size: 1em;
+    padding-top: 4px;
+    font-weight: normal;
+}
+
+#participants p {
+    margin-top: 14px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#participantTitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    color: #343434;
+}
+
+#participants h2 {
+    display: inline-block;
+}
+
+#participantTitle > img {
+    display: inline-block;
+    width: 20px;
+}
+/* ----- CONTACTFORM ----- */
+
+#contactBanner {
+    background-image: url("../images/backgroundSmall.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#contactBanner h2 {
+    color: white;
+    width: 90%;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px 0px;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#email {
+    background-color: #ebebeb;
+    color: #343434;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#btnSendMail {
+    font-size: 1.3em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    display: block;
+    background-color: #dc5858;
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+#btnSendMail:hover,
+#btnSendMail:active {
+    background-color: #d63c3c;
+}
+/* ----- FOOTER ----- */
+
+footer {
+    background-color: #343434;
+    color: white;
+    padding-top: 15px;
+}
+
+.footerItem {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 30px
+}
+
+.footerItem h5 {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+.footerItem p {
+    letter-spacing: 1.1px;
+    line-height: 22px;
+}
+
+.footerItem em {
+    color: #dc5858;
+    font-style: normal;
+}
+
+#footerText,
+#footerTwitter {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #dc5858;
+}
+
+#footerContact {
+    padding-bottom: 30px;
+}
+
+#footerContact h5 {
+    padding-bottom: 20px;
+}
+
+#footerContact p {
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+#footerTwitter img,
+#footerTwitter h5 {
+    display: inline-block;
+}
+
+#footerTwitter img {
+    width: 40px;
+    padding-right: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    /* ----- NAVIGATION ----- */
+    
+    #navDekstop {
+        display: block;
+    }
+    #navMobile,
+    .hamburger,
+    .cross {
+        display: none;
+    }
+    #logo {
+        margin-top: 0;
+    }
+    #logoContainer {
+        width: 30%;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 15px auto
+    }
+    #navDekstop {
+        display: flex;
+        width: 65%;
+        max-width: 650px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #navDekstop > a {
+        color: #343434;
+        text-decoration: none;
+        font-weight: 400;
+        text-align: center;
+        display: block;
+    }
+    
+    #navDekstop > a:nth-child(5)
+    {
+        color: white;
+    }
+    
+    #navDekstop > a:hover,
+    #navDekstop > a:active
+    {
+        font-weight: bold;
+    }
+    
+    #btnTicket
+    {
+        background-color: #dc5858;
+        padding: 10px 6px;
+        border-radius: 10px;
+    }
+    
+    #info p
+    {
+        font-size: 40px;
+    }
+    
+    #countdown, #practicalInfo
+    {
+        max-width: 800px;
+        
+    }
+    
+    #intro
+    {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        width: 86%;
+    }
+    
+    #introInfo
+    {
+        margin-left: 30px;
+        width: 80%;
+        display: block;
+    }
+    
+    #imgSpeaker {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: block;
+        height: 270px;
+    }
+    
+    #participantsInnerBar
+    {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    #participantsBar h4
+    {
+        padding: 50px 0;
+        font-size: 3em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #participantsInnerBar em{
+        font-size: 0.5em;
+        font-weight: normal;
+    }
+    
+    
+    #participantTitle
+    {
+        margin-top: 40px;
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+    
+    #participantTitle img{
+        width: 35px;
+        margin-left: 10px;
+    }
+    
+    #participantsContainer
+    {
+        display: flex;
+    }
+    
+    #contactBanner h2{
+        margin-top: 30px;
+        padding: 50px 0;
+        font-size: 2.3em;
+    }
+    
+    form
+    {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+    }
+    
+    #email,
+#btnSendMail
+    {
+        display: inline-block;
+    }
+    
+    #email
+    {
+        width: 58%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+    }
+    
+    #btnSendMail
+    {
+        width: 33%;
+        text-align: center;
+        margin-left: 2%;
+        margin-right: auto; 
+    }
+    
+    footer
+    {
+        padding: 50px 0;
+    }
+    
+    #footerElements
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .footerItem
+    {
+        width: 28%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-bottom: 0px;
+    }
+    
+    .redBar
+    {
+        background-color: #dc5858;
+        width: 3px;
+        display: block;
+    }
+    
+    #footerText, #footerTwitter
+    {
+        border: none;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+header
+    {
+        width: 1100px;
+    }
+    
+    #countdown, #practicalInfo
+    {
+        width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #intro
+    {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #participantsContainer
+    {
+        width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #contactBanner h2
+    {
+        
+        width: 1100px;
+    }
+    
+}
