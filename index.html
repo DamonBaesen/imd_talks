@@ -1,138 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Home | IMD Talks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="public/css/reset.css">
     <link rel="stylesheet" href="public/css/style.css" type="text/css">
 </head>
+
 <body>
     <header>
-    <div id="navigationBar">
-        <div id="logo">
-            <a href="#">LOGO</a>
+        <div id="logoContainer">
+            <a href="#" id="logo">LOGO</a>
         </div>
-        
-        <nav>
+
+
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+        <div class="menu" id="navMobile">
+            <nav>
+                <a href="">HOME</a>
+                <a href="">INTRO</a>
+                <a href="">TIMETABLE</a>
+                <a href="">NEWSLETTER</a>
+                <a href="">KOOP TICKETS</a>
+            </nav>
+        </div>
+
+        <nav id="navDekstop">
             <a href="">HOME</a>
             <a href="">INTRO</a>
             <a href="">TIMETABLE</a>
             <a href="">NEWSLETTER</a>
-            <a href="">KOOP TICKETS</a>
+            <a href="" id="btnTicket">KOOP TICKETS</a>
         </nav>
-    </div>
-    
+    </header>
+
+
+
+
+
+
     <div id="info">
         <div id="countdown">
-            <div id="countdownDays">
+            <div id="countdownDays" class="countdownElement">
                 <p>151 Days</p>
             </div>
-            <div id="countdownHours">
+            <div id="countdownHours" class="countdownElement">
                 <p>23 Hours</p>
             </div>
-            <div id="countdownMinutes">
+            <div id="countdownMinutes" class="countdownElement">
                 <p>45 Minutes</p>
             </div>
         </div>
-        
+
         <div id="practicalInfo">
-            <div id="dateInfo">
+            <div id="dateInfo" class="timeElement">
                 <h3>Donderdag 15 mei 2017</h3>
-                <img src="" alt="">
+                <img src="public/images/datePicker.png" alt="">
             </div>
-            <div id="locationInfo">
+            <div id="locationInfo" class="timeElement">
                 <h3>Creativity GYM, Thomas More Mechelen</h3>
-                <img src="" alt="">
+                <img src="public/images/locationPicker.png" alt="">
             </div>
         </div>
     </div>
-    
+
     <div id="intro">
-        <img src="public/images/spreker.png" alt="Spreker IMD" title="Spreker IMD">
+        <img src="public/images/spreker.png" alt="Spreker IMD" title="Spreker IMD" id="imgSpeaker">
         <div id="introInfo">
             <h1>Interactive Multimedia Design PRESENTS</h1>
-            <h2>Talking about the latest IT Innovations and discussing Future Tech</h2>
+            <h2>Talking about the latest <em>IT Innovations</em> and discussing Future Tech</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, debitis, dignissimos! Sapiente odio in ullam aspernatur fuga voluptate eum eaque, culpa animi non, asperiores fugit iure quod aperiam officia praesentium.</p>
         </div>
     </div>
     </header>
     <div id="participantsBar">
-        <h4>15 Deelnemers</h4>
-        <h4>4 Onderwerpen</h4>
+       <div id="participantsInnerBar">
+        <h4>15 <em>Deelnemers</em></h4>
+        <h4>4 <em>Onderwerpen</em></h4>
     </div>
-    
+    </div>
+
     <div id="timetableContainer">
         <div id="timetable">
-            
+
         </div>
         <div id="timeText">
             <h3>IMD TALKS stelt voor:</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nobis error culpa assumenda, dignissimos mollitia veniam tempore illo unde beatae. Omnis sed voluptatibus beatae unde fuga animi autem nulla doloribus.</p>
-            <a href="">Count me in!</a>
+            <a href="" id="ctaTimetable">Count me in! <br><em>KOOP TICKETS</em></a>
         </div>
     </div>
-    
+
     <div id="participants">
+        <div id="participantTitle">
+            <h2>Deelnemers</h2>
+            <img src="public/images/participantIcon.png" alt="participant Icon" title="participant Icon">
+        </div>
+        <div id="participantsContainer">
         <div class="participant">
-            <img src="" alt="">
+            <img src="public/images/participant.png" alt="participant" title="participant">
             <h3>KRIS JORIS</h3>
-            <p>Project manager @ Google</p>
-            <p>Egestas commodo pharetra mollis mollis. 
-Fringilla tortor, nunc cum eu malesuada</p>
+            <h4>Project manager @ Google</h4>
+            <p>Egestas commodo pharetra mollis mollis. Fringilla tortor, nunc cum eu malesuada</p>
         </div>
-        
+
         <div class="participant">
-            <img src="" alt="">
+            <img src="public/images/participant.png" alt="participant" title="participant">
             <h3>SOFIE JANSSENS</h3>
-            <p>Project manager @ Google</p>
-            <p>Egestas commodo pharetra mollis mollis. 
-Fringilla tortor, nunc cum eu malesuada</p>
+            <h4>Project manager @ Google</h4>
+            <p>Egestas commodo pharetra mollis mollis. Fringilla tortor, nunc cum eu malesuada</p>
         </div>
-        
+
         <div class="participant">
-            <img src="" alt="">
+            <img src="public/images/participant.png" alt="participant" title="participant">
             <h3>PETER BRAMS</h3>
-            <p>Project manager @ Google</p>
-            <p>Egestas commodo pharetra mollis mollis. 
-Fringilla tortor, nunc cum eu malesuada</p>
+            <h4>Project manager @ Google</h4>
+            <p>Egestas commodo pharetra mollis mollis. Fringilla tortor, nunc cum eu malesuada</p>
+        </div>
         </div>
     </div>
-    
+
     <div id="contactBanner">
         <h2>Stuur me de laatste updates omtrent IMD TALKS !</h2>
     </div>
-    
+
     <div id="contact">
         <form method="post" action="#">
-            <input type="text" id="email" name="email" placeholder="contact@imdtalks.be">
-            <input type="submit" value="Inschrijven">
+            <label for="email" style="display:none;">EMAIL</label>
+            <input type="email" id="email" name="email" placeholder="contact@imdtalks.be">
+            <input id="btnSendMail" type="submit" value="Inschrijven">
         </form>
     </div>
-    
+
     <footer>
-        <div id="footerText">
-            <h5>Over IMD TALKS</h5>
+       <div id="footerElements">
+        <div id="footerText" class="footerItem">
+            <h5>Over <em>IMD TALKS</em></h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum architecto sed molestias dolores dolorem commodi quisquam suscipit impedit consequatur. Dolorem blanditiis explicabo quam quod voluptatem laudantium similique, nihil facere, at.</p>
         </div>
-        <div id="footerTwitter">
-            <p>HIER KOMT TWITTER FEED</p>
+        <div class="redBar"></div>
+        <div id="footerTwitter" class="footerItem">
+            <img src="public/images/twitterIcon.png" alt="logo Twitter" title="logo Twitter">
+            <h5>Recente Tweets</h5>
+            <p>HIER KOMEN DE TWEETS</p>
         </div>
-        <div id="footerContact">
+                <div class="redBar"></div>
+        <div id="footerContact" class="footerItem">
             <h5>Contact</h5>
-            <p>+32 494 22 36 94</p>
             <p>2800 Mechelen, Campus kruidtuin Thomas More hogeschool</p>
-            <p>imdtalks@thomasmore.be</p>
+            <p>talks@thomasmore.be</p>
+        </div>
         </div>
     </footer>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-89150219-1', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-89150219-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-</script>
     <script src="public/js/script.js"></script>
 </body>
+
 </html>
