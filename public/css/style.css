@@ -120,7 +120,7 @@ header {
 /* ----- GENERAL INFO ----- */
 
 #info {
-    background-image: url(../images/backgroundBig.png);
+    background-image: url(../images/foto1-talks.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 40px 0;
@@ -230,7 +230,7 @@ header {
 
 #participantsBar {
     margin: 40px 0;
-    background-image: url(../images/backgroundSmall.png);
+    background-image: url(../images/foto2-talks.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -371,7 +371,7 @@ header {
 /* ----- CONTACTFORM ----- */
 
 #contactBanner {
-    background-image: url("../images/backgroundSmall.png");
+    background-image: url("../images/foto3-talks.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
